@@ -14,7 +14,10 @@ sub url_exists
 {
     my $url = shift;
 
-    $ua //= HTTP::Tiny->new();
+    unless (defined $ua) {
+        $ua = HTTP::Tiny->new();
+    }
+
     my $response = $ua->head($url);
 
     return !!$response->{success};
