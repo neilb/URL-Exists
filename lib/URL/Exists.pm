@@ -27,7 +27,7 @@ sub url_exists
 
 =head1 NAME
 
-URL::Exists - function that returns true if URL is present
+URL::Exists - test whether a URL exists, when you don't care about the contents
 
 =head1 SYNOPSIS
 
