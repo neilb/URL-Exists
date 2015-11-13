@@ -48,7 +48,7 @@ schemes, if there's any demand / interest.
 
 =head1 REPOSITORY
 
-L<https://github.com/neilbowers/URL-Exists>
+L<https://github.com/neilb/URL-Exists>
 
 =head1 AUTHOR
 
